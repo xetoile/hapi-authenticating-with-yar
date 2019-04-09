@@ -1,0 +1,27 @@
+{
+  "name": "hapi-with-yar-example",
+  "version": "1.0.0",
+  "description": "HapiJS + Yar plugin demonstration with Redis cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "yar",
+    "redis",
+    "redisCache"
+  ],
+  "author": "xetoile",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "catbox-redis": "^4.2.4",
+    "flatted": "^2.0.0",
+    "handlebars": "^4.1.1",
+    "hapi": "^18.1.0",
+    "vision": "^5.4.4",
+    "yar": "^9.1.0"
+  }
+}

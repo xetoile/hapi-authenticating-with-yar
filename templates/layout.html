@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{page}}</title>
+</head>
+<body>
+	{{{content}}}
+	<div>Authenticated:&nbsp;{{#if auth}}YES{{else}}NO{{/if}}</div>
+	<div>Yar dump: {{yar}}</div>
+	<div>Hapi credentials: {{credentials}}</div>
+	<hr>
+	<div>
+		<a href="/">home</a>
+		&nbsp;|&nbsp;
+		<a href="/login">login</a>
+		&nbsp;|&nbsp;
+		<a href="/logout">logout</a>
+		&nbsp;|&nbsp;
+		<a href="/secured">secured</a>
+		&nbsp;|&nbsp;
+		<a href="/user">account</a>
+	</div>
+</body>
+</html>
